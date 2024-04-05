@@ -1,15 +1,46 @@
-# What is this?
+<h1 style="text-align:center;">
+    ANTLR
+    <span style="font-size: 20px; position: relative; top: -2.5px">
+        :java
+    </span>
+</h1>
 
-The github.dev web-based editor is a lightweight editing experience that runs entirely in your browser. You can navigate files and source code repositories from GitHub, and make and commit code changes.
+<h2 style="text-align:center;">Documentacion para principiantes</h2>
 
-There are two ways to go directly to a VS Code environment in your browser and start coding:
+<h2> 1: Bienvenida </h2>
 
-* Press the . key on any repository or pull request.
-* Swap `.com` with `.dev` in the URL. For example, this repo https://github.com/github/dev becomes http://github.dev/github/dev
+Hola, hoy les vengo a presentar **JavaCC**, que es un creador de [**Lexico**](Lexico) e [**Sintatico**](Sintatico) que sirve para crear tus propios formatos de codigo
+<sup>
+    (pseudecodigo)
+</sup>
+que fue creado por **Terence Parr** y su sitio web es [antlr.org](http://antlr.org), al igual con sitio de editor de **ANTLR** que es [lab.antlr.org](http://lab.antlr.org/) e gratuito.
 
-Preview the gif below to get a quick demo of github.dev in action.
+<h2> 2: Lenguaje de Gramatica</h2>
 
-![github dev](https://user-images.githubusercontent.com/856858/130119109-4769f2d7-9027-4bc4-a38c-10f297499e8f.gif)
+en esta parte voy a prensentar las palabras clave
+<sup>
+    keyword
+</sup>
+ como gramaticas:
 
-# Why?
-It’s a quick way to edit and navigate code. It's especially useful if you want to edit multiple files at a time or take advantage of all the powerful code editing features of Visual Studio Code when making a quick change. For more information, see our [documentation](https://github.co/codespaces-editor-help).
+<h3 style="text-align:center;">
+    2.1: Palabras clave
+    <span style="font-size:10px; position:relative; top:-2px;">
+        (keyword)
+    </span>
+</h3>
+
+| Keywords | Descripcion | conjunto | ejemplo |
+|:-:|:-:|:-:|:-:|
+| <span style="color:#CC7832;">grammar</span> | para definir tus gramaticas | <span style="color:#CC7832;">parse</span> o <span style="color:#CC7832;">lexer</span> | <span style="background-color: #202020; padding:4px; border-radius:7.5px;color:#CC7832;">grammar <span style="color:grey;">Name_Grammar;</span><span></span>|
+| <span style="color:#CC7832;">lexer</span> | para definir tus lexico no permite parse | <span style="color:#CC7832;">grammar</span> | <span style="background-color: #202020; padding:4px; border-radius:7.5px;color:#CC7832;">lexer grammar <span style="color:grey;">Name_Lexer;</span><span></span>|
+| <span style="color:#CC7832;">parse</span> | para definir tus parse no permite lexico | <span style="color:#CC7832;">grammar</span> | <span style="background-color: #202020; padding:4px; border-radius:7.5px;color:#CC7832;">lexer grammar <span style="color:grey;">Name_Lexer;</span><span></span>|
+
+
+
+
+```java
+
+
+```
+
